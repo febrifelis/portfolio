@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" role="img" aria-label="Locatrip cover">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f1830"/><stop offset="1" stop-color="#131c31"/>
+    </linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4f8cff"/><stop offset="1" stop-color="#38d9c3"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="rgba(79,140,255,.07)"/>
+    </pattern>
+    <radialGradient id="glow" cx=".75" cy=".3" r=".6">
+      <stop offset="0" stop-color="rgba(79,140,255,.22)"/><stop offset="1" stop-color="rgba(79,140,255,0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="720" height="280" fill="url(#bg)"/>
+  <rect width="720" height="280" fill="url(#grid)"/>
+  <rect width="720" height="280" fill="url(#glow)"/>
+
+  <path d="M430,215 C480,140 555,185 645,75" fill="none" stroke="url(#ac)" stroke-width="3" stroke-dasharray="2 11" stroke-linecap="round"/>
+  <g transform="translate(430,215)">
+    <path d="M0,4 C-10,-8 -17,-15 -17,-26 A17,17 0 1 1 17,-26 C17,-15 10,-8 0,4 Z" fill="url(#ac)"/>
+    <circle cx="0" cy="-26" r="6.5" fill="#0f1830"/>
+  </g>
+  <g transform="translate(645,75) scale(.8)">
+    <path d="M0,4 C-10,-8 -17,-15 -17,-26 A17,17 0 1 1 17,-26 C17,-15 10,-8 0,4 Z" fill="#dbe4f5" opacity=".85"/>
+    <circle cx="0" cy="-26" r="6.5" fill="#0f1830"/>
+  </g>
+  <g transform="translate(525,150) rotate(-28) scale(1.15)">
+    <path d="M2,21 L23,12 L2,3 L2,10 L17,12 L2,14 Z" fill="#dbe4f5" opacity=".9"/>
+  </g>
+
+  <text x="44" y="192" font-family="Consolas, 'JetBrains Mono', monospace" font-size="13" letter-spacing="3" fill="#38d9c3">TRAVEL BOOKING PLATFORM</text>
+  <text x="42" y="230" font-family="'Segoe UI', 'Inter', sans-serif" font-size="34" font-weight="700" fill="#dbe4f5">Locatrip</text>
+  <rect x="44" y="244" width="64" height="4" rx="2" fill="url(#ac)"/>
+</svg>

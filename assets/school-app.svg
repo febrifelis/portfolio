@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" role="img" aria-label="School App cover">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#231a12"/><stop offset="1" stop-color="#131c31"/>
+    </linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#febc2e"/><stop offset="1" stop-color="#ff8a5c"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="rgba(254,188,46,.07)"/>
+    </pattern>
+    <radialGradient id="glow" cx=".8" cy=".4" r=".6">
+      <stop offset="0" stop-color="rgba(254,188,46,.18)"/><stop offset="1" stop-color="rgba(254,188,46,0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="720" height="280" fill="url(#bg)"/>
+  <rect width="720" height="280" fill="url(#grid)"/>
+  <rect width="720" height="280" fill="url(#glow)"/>
+
+  <g>
+    <rect x="545" y="18" width="120" height="244" rx="20" fill="#0e1526" stroke="rgba(254,188,46,.45)" stroke-width="2.5"/>
+    <rect x="585" y="28" width="40" height="7" rx="3.5" fill="rgba(254,188,46,.35)"/>
+    <rect x="558" y="46" width="94" height="26" rx="7" fill="url(#ac)" opacity=".9"/>
+    <rect x="558" y="82" width="43" height="43" rx="9" fill="rgba(254,188,46,.16)" stroke="rgba(254,188,46,.4)"/>
+    <rect x="609" y="82" width="43" height="43" rx="9" fill="rgba(255,138,92,.16)" stroke="rgba(255,138,92,.4)"/>
+    <rect x="558" y="133" width="43" height="43" rx="9" fill="rgba(255,138,92,.16)" stroke="rgba(255,138,92,.4)"/>
+    <rect x="609" y="133" width="43" height="43" rx="9" fill="rgba(254,188,46,.16)" stroke="rgba(254,188,46,.4)"/>
+    <rect x="558" y="184" width="94" height="10" rx="5" fill="rgba(219,228,245,.2)"/>
+    <rect x="558" y="202" width="66" height="10" rx="5" fill="rgba(219,228,245,.12)"/>
+    <rect x="580" y="240" width="50" height="6" rx="3" fill="rgba(219,228,245,.25)"/>
+  </g>
+  <path d="M470,90 L500,78 L530,90 L500,102 Z" fill="url(#ac)" opacity=".9"/>
+  <path d="M485,96 L485,116 C485,122 515,122 515,116 L515,96" fill="none" stroke="url(#ac)" stroke-width="4" stroke-linecap="round"/>
+
+  <text x="44" y="192" font-family="Consolas, 'JetBrains Mono', monospace" font-size="13" letter-spacing="3" fill="#febc2e">SCHOOL INFORMATION SYSTEM</text>
+  <text x="42" y="230" font-family="'Segoe UI', 'Inter', sans-serif" font-size="34" font-weight="700" fill="#dbe4f5">School App</text>
+  <rect x="44" y="244" width="64" height="4" rx="2" fill="url(#ac)"/>
+</svg>

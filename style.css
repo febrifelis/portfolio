@@ -325,12 +325,18 @@ ul { list-style: none; }
   content: ''; position: absolute; inset: 0 0 auto 0; height: 3px;
   background: var(--gradient);
 }
+.project-cover {
+  aspect-ratio: 720 / 280; overflow: hidden;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface-2);
+}
+.project-cover img {
+  width: 100%; height: 100%; object-fit: cover;
+  transition: transform .45s ease;
+}
+.project-card:hover .project-cover img { transform: scale(1.045); }
 .project-body { padding: 28px; display: flex; flex-direction: column; gap: 12px; flex: 1; }
 .project-top { display: flex; align-items: center; justify-content: space-between; }
-.project-emoji {
-  font-size: 1.7rem; line-height: 1;
-  filter: drop-shadow(0 4px 12px rgba(79,140,255,.35));
-}
 .project-label {
   font-family: var(--mono); font-size: .72rem; color: var(--accent-2);
   border: 1px solid rgba(56,217,195,.3); border-radius: 999px;

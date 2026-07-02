@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" role="img" aria-label="MigraSafe cover">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0e1e28"/><stop offset="1" stop-color="#131c31"/>
+    </linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38d9c3"/><stop offset="1" stop-color="#28c840"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="rgba(56,217,195,.07)"/>
+    </pattern>
+    <radialGradient id="glow" cx=".78" cy=".4" r=".6">
+      <stop offset="0" stop-color="rgba(56,217,195,.22)"/><stop offset="1" stop-color="rgba(56,217,195,0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="720" height="280" fill="url(#bg)"/>
+  <rect width="720" height="280" fill="url(#grid)"/>
+  <rect width="720" height="280" fill="url(#glow)"/>
+
+  <circle cx="590" cy="130" r="92" fill="none" stroke="rgba(56,217,195,.18)" stroke-width="1.5"/>
+  <circle cx="590" cy="130" r="72" fill="none" stroke="rgba(56,217,195,.28)" stroke-width="1.5" stroke-dasharray="4 8"/>
+  <g transform="translate(590,130)">
+    <path d="M0,-52 L42,-36 L42,2 C42,32 0,52 0,52 C0,52 -42,32 -42,2 L-42,-36 Z" fill="rgba(56,217,195,.12)" stroke="url(#ac)" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M-18,0 L-5,14 L20,-14" fill="none" stroke="url(#ac)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="44" y="192" font-family="Consolas, 'JetBrains Mono', monospace" font-size="13" letter-spacing="3" fill="#38d9c3">MIGRANT WORKER SAFETY</text>
+  <text x="42" y="230" font-family="'Segoe UI', 'Inter', sans-serif" font-size="34" font-weight="700" fill="#dbe4f5">MigraSafe</text>
+  <rect x="44" y="244" width="64" height="4" rx="2" fill="url(#ac)"/>
+</svg>
